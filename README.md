@@ -100,8 +100,10 @@
 ## :hash: redux-thunk:
 &nbsp; :arrow_right: By default, Redux action creators don’t support asynchronous actions like fetching data. <br />
 &nbsp; :arrow_right: Thunk allows us to write action creators that return a function instead of an action. The inner function can receive the store methods `dispatch` and `getState` as parameters. <br />
-&nbsp; :arrow_right:  <br />
-&nbsp; :arrow_right:  <br />
+
+## :hash: Two key points for avoiding mutations in Redux:
+&nbsp; :arrow_right: Using concat(), slice(), and …spread for arrays. <br />
+&nbsp; :arrow_right: Using Object.assign() and …spread for objects. <br />
 
 
 ### Contributing
