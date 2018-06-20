@@ -97,7 +97,11 @@
 &nbsp; :arrow_right: `mapDispatchToProps` connects Redux actions to React props and takes dispatch function as a parameter and returns another object. <br />
 &nbsp; :arrow_right: **Provider** is an higher order component, it wraps up your whole React application and makes it aware of the entire Redux’s store and gets the store as a prop. <br />
 
-
+## :hash: redux-thunk:
+&nbsp; :arrow_right: By default, Redux action creators don’t support asynchronous actions like fetching data. <br />
+&nbsp; :arrow_right: Thunk allows us to write action creators that return a function instead of an action. The inner function can receive the store methods `dispatch` and `getState` as parameters. <br />
+&nbsp; :arrow_right:  <br />
+&nbsp; :arrow_right:  <br />
 
 
 ### Contributing
