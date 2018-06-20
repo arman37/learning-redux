@@ -82,6 +82,15 @@
 &nbsp; :arrow_right: The type property is nothing more than a string. Since strings are prone to typos and duplicates it’s better to have action types declared as constants. <br />
 &nbsp; :arrow_right: As actions are just plain objects, they can be logged, serialized, stored, and later replayed for debugging or testing purposes. <br />
 
+## :hash: Middleware:
+&nbsp; :arrow_right: Middleware serves as the glue between two different layers or different pieces of software. <br />
+&nbsp; :arrow_right: It acts on the store’s dispatch pipeline. <br />
+&nbsp; :arrow_right: In Redux, middleware consists of a series of functions that are executed in a row in the process of dispatching an action. <br />
+&nbsp; :arrow_right: Each piece of middleware is a function that has access to the action, a dispatch function, and a function that will call next. <br />
+
+
+
+
 
 ### Contributing
 If you like the project, shoot a :star2: and feel free to fork & send PR.
