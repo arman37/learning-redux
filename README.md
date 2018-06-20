@@ -29,6 +29,19 @@
 &nbsp; :diamond_shape_with_a_dot_inside: The tradeoff that Redux offers is to add indirection to decouple “what happened” from “how things change”. <br />
 ]
 
+## :hash: We should consider using Redux for:
+&nbsp; :arrow_right: Data fetching and caching. <br />
+&nbsp; :arrow_right: Things that are like “global variables” (e.g. authentication). <br />
+&nbsp; :arrow_right: Things that have very complex update logic (e.g. a multimedia post editor). <br />
+&nbsp; :arrow_right: Things that many distant components care about. <br />
+&nbsp; :arrow_right: When the state tree shape is too different from the UI tree shape. <br />
+&nbsp; :arrow_right: Variables that are annoying to explicitly pass down the React tree. <br />
+&nbsp; :arrow_right: Update logic that is too complex to express with a bunch of `setState()`s. <br />
+&nbsp; :arrow_right: Multiple React components that need to access the same state but do not have any parent/child relationship. <br />
+&nbsp; :arrow_right: We start to feel awkward passing down the state to multiple components with props. <br />
+&nbsp; :arrow_right: Isn't useful for smaller apps. It really shines when it comes to develop a complex React application. <br />
+
+
 ### Contributing
 If you like the project, shoot a :star2: and feel free to fork & send PR.
 
