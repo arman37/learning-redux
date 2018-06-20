@@ -4,3 +4,6 @@
 ##### Arman Bhuiyan <kbd>[Github](https://github.com/arman37) / [LinkedIn](https://www.linkedin.com/in/arman-bhuiyan) / [Facebook](https://www.facebook.com/arman.it37) / [Site](http://armanbhuiyan.com) /  [E-Mail](mailto:arman.it37@gmail.com)</kbd>
 
 # Learning Redux
+
+### Contributing
+If you like the project, shoot a :star2: and feel free to fork & send PR.
