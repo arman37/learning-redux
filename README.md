@@ -5,6 +5,20 @@
 
 # Learning Redux
 
+[ <br />
+&nbsp; :diamond_shape_with_a_dot_inside: State Management Library <br />
+&nbsp; :diamond_shape_with_a_dot_inside: Framework Agnostic <br />
+&nbsp; :diamond_shape_with_a_dot_inside: Action <br />
+&nbsp; :diamond_shape_with_a_dot_inside: Reducer <br />
+&nbsp; :diamond_shape_with_a_dot_inside: Store <br />
+&nbsp; :diamond_shape_with_a_dot_inside: Immutable <br />
+&nbsp; :diamond_shape_with_a_dot_inside: Read-only State <br />
+&nbsp; :diamond_shape_with_a_dot_inside: Pure Function <br />
+&nbsp; :diamond_shape_with_a_dot_inside: Single Source Of Truth <br />
+&nbsp; :diamond_shape_with_a_dot_inside: Predictable State Change <br />
+&nbsp; :diamond_shape_with_a_dot_inside: Verb-oriented <br />
+]
+
 ### Contributing
 If you like the project, shoot a :star2: and feel free to fork & send PR.
 
