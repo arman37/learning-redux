@@ -41,6 +41,19 @@
 &nbsp; :arrow_right: We start to feel awkward passing down the state to multiple components with props. <br />
 &nbsp; :arrow_right: Isn't useful for smaller apps. It really shines when it comes to develop a complex React application. <br />
 
+## :hash: Store:
+&nbsp; :arrow_right: The Redux store is like a brain: it’s in charge for **orchestrating all the moving parts** in Redux <br />
+&nbsp; :arrow_right: When building Redux apps, the first thing you need to think about is **state**. <br />
+&nbsp; :arrow_right: The state of the application lives as a **single, immutable object** within the store. <br />
+&nbsp; :arrow_right: It is usually a good idea to draft a JSON sample of your state tree with some placeholder data. <br />
+&nbsp; :arrow_right: Each key in this single object represents a branch of the state tree. <br />
+&nbsp; :arrow_right: The store handles state updates by passing the current state and action through a single reducer. <br />
+&nbsp; :arrow_right: `createStore` is the function for creating the Redux store.  <br />
+&nbsp; :arrow_right: `createStore` takes a reducer as the first argument. We may also pass an initial state to createStore for server side rendering. Anyway, **the state comes from reducers**. <br />
+&nbsp; :arrow_right: As soon as the store receives an action it triggers a reducer that returns the next state. <br />
+&nbsp; :arrow_right: Provides `getState` for accessing the current state of the application. <br />
+&nbsp; :arrow_right: Provides `dispatch` for dispatching an action. <br />
+&nbsp; :arrow_right: Provides `subscribe` for listening on state changes. <br />
 
 ### Contributing
 If you like the project, shoot a :star2: and feel free to fork & send PR.
