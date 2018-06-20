@@ -105,6 +105,19 @@
 &nbsp; :arrow_right: Using concat(), slice(), and …spread for arrays. <br />
 &nbsp; :arrow_right: Using Object.assign() and …spread for objects. <br />
 
+## :hash: References:
+&nbsp; :link: [React Redux Tutorial for Beginners: The Definitive Guide (2018)](https://www.valentinog.com/blog/react-redux-tutorial-beginners) [read] <br />
+&nbsp; :link: [A Dummy’s Guide to Redux and Thunk in React](https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3) [read] <br />
+&nbsp; :link: [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux) [watch] <br />
+&nbsp; :link: [20 video tutorials for building apps with React.js and Redux](https://www.learnredux.com) [watch] <br />
+&nbsp; :link: [Learn React & Redux With Cabin](http://cabin.getstream.io) [read] <br />
+&nbsp; :link: [A Comprehensive Guide to Test-First Development with Redux, React, and Immutable](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html) [read] <br />
+&nbsp; :link: [Tips to learn React + Redux in 2018](https://www.robinwieruch.de/tips-to-learn-react-redux) [read] <br />
+&nbsp; :link: [Redux Basics(Official Site)](https://redux.js.org/basics) [read] <br />
+&nbsp; :link: [You Might Not Need Redux](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367) [read] <br />
+&nbsp; :link: [When is it time to stop managing state at the component level and switch to something like Redux?](https://dev.to/dan_abramov/react-beginner-question-thread--1i5e/comments/1n21) [read] <br />
+&nbsp; :link: [Learn Redux](https://github.com/dwyl/learn-redux) [read] <br />
+&nbsp; :link: [Redux interview questions](http://www.punch.cool/community/questions-answers/engineering/redux) [read] <br />
 
 ### Contributing
 If you like the project, shoot a :star2: and feel free to fork & send PR.
