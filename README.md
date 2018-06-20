@@ -68,6 +68,21 @@
 &nbsp; :arrow_right: The resulting state is a copy of the current state plus the new data. <br />
 &nbsp; :arrow_right: Split a big reducer into separate functions and combine them with `combineReducers` function. <br />
 
+## :hash: Action:
+&nbsp; :arrow_right: In a nutshell, actions are events. **An object describing what happened**.  <br />
+&nbsp; :arrow_right: Actions provide instructions about what should change in the application state along with the necessary data to make those changes. <br />
+&nbsp; :arrow_right: When we dispatch an action through the store, the action is sent through the reducers and the state is updated. <br />
+&nbsp; :arrow_right: This ensures that neither the views nor the network callbacks will ever write directly to the state. <br />
+&nbsp; :arrow_right: Actions send data from the application (user interactions, internal events such as API calls, and form submissions) to the store. The store gets information only from actions. <br />
+&nbsp; :arrow_right: Redux actions are nothing more than Javascript objects consisting of type & payload property. <br />
+&nbsp; :arrow_right: Only way to change the state is by sending a signal to the store. This signal is an action. <br />
+&nbsp; :arrow_right: “**Dispatching an action**” is the process of sending out a signal. <br />
+&nbsp; :arrow_right: It is a best practice to **wrap every action within a function**. Such function is an action creator. <br />
+&nbsp; :arrow_right: The action creators are functions that return an action. <br />
+&nbsp; :arrow_right: The type property is nothing more than a string. Since strings are prone to typos and duplicates it’s better to have action types declared as constants. <br />
+&nbsp; :arrow_right: As actions are just plain objects, they can be logged, serialized, stored, and later replayed for debugging or testing purposes. <br />
+
+
 ### Contributing
 If you like the project, shoot a :star2: and feel free to fork & send PR.
 
