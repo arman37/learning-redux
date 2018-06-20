@@ -89,6 +89,14 @@
 &nbsp; :arrow_right: Each piece of middleware is a function that has access to the action, a dispatch function, and a function that will call next. <br />
 
 
+## :hash: react-redux:
+&nbsp; :arrow_right: The key for connecting a React component with Redux is **connect**. It takes at least one argument. <br />
+&nbsp; :arrow_right: **connect** connects a React component with the Redux store. <br />
+&nbsp; :arrow_right: **connect** takes two or three arguments(`mapStateToProps` & `mapDispatchToProps`) depending on the use case. <br />
+&nbsp; :arrow_right: `mapStateToProps` connects a part of the Redux state to the props of a React component and takes state object as a parameter and returns another object. <br />
+&nbsp; :arrow_right: `mapDispatchToProps` connects Redux actions to React props and takes dispatch function as a parameter and returns another object. <br />
+&nbsp; :arrow_right: **Provider** is an higher order component, it wraps up your whole React application and makes it aware of the entire Redux’s store and gets the store as a prop. <br />
+
 
 
 
