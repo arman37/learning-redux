@@ -55,6 +55,19 @@
 &nbsp; :arrow_right: Provides `dispatch` for dispatching an action. <br />
 &nbsp; :arrow_right: Provides `subscribe` for listening on state changes. <br />
 
+## :hash: Reducer:
+&nbsp; :arrow_right: A reducer is just a Javascript function. <br />
+&nbsp; :arrow_right: State updates are handled by reducers. <br />
+&nbsp; :arrow_right: A reducer takes two parameters: the **current state** and an **action**. <br />
+&nbsp; :arrow_right: Reducers produce the state. The state is not something we create by hand. <br />
+&nbsp; :arrow_right: While an initial state is useful for SSR, in Redux the **state must return entirely from reducers**. <br />
+&nbsp; :arrow_right: No SideEects in Reducers. Reducers should be **predictable**. <br />
+&nbsp; :arrow_right: A reducer function must be **pure** since redux state is **immutable**. <br />
+&nbsp; :arrow_right: A reducer function has a switch statement (although unwieldy, a naive reducer could also use if/else). <br />
+&nbsp; :arrow_right: The reducer **calculates the next state** depending on the action type. Moreover, it should return at least the initial state when no action type matches. <br />
+&nbsp; :arrow_right: The resulting state is a copy of the current state plus the new data. <br />
+&nbsp; :arrow_right: Split a big reducer into separate functions and combine them with `combineReducers` function. <br />
+
 ### Contributing
 If you like the project, shoot a :star2: and feel free to fork & send PR.
 
